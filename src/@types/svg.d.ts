@@ -1,6 +1,9 @@
-eclare module "*.svg" {
-    import React from 'react';
-    import { SvgProps } from "react-native-svg";
-    const content: React.FC<SvgProps>;
-    export default content;
-}
+export declare global {
+    namespace ReactNavigation {
+      interface RootParamList {
+        home: undefined;
+        new: undefined;
+        details: { orderId: string };
+      }
+    }
+  }
