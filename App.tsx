@@ -20,4 +20,4 @@ export default function App() {
     </NativeBaseProvider>
   );
 }
-teste67
+teste67sa
